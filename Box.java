@@ -4,6 +4,8 @@ public class Box extends Shape {
 
     public Box(double width, double height, String color, int positionX, int positionY) {
         super(color, positionX, positionY);
+        this.setWidth(width);
+        this.setHeight(height);
     }
 
     public void setWidth(double width) {
